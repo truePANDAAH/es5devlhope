@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Esercizio 5 conversione immagini</title>
+    <style>
+        img{
+            max-width:300px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 400%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-variant-caps: all-petite-caps;
+        }
+        body {
+            background-color: crimson;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <h1>In love from Japan</h1>
+    <!--codice scritto , ora fare prova con immagini allegate -->
+    <hr>
+    <picture>
+        <source srcset="./assets/shibuya.webp" type="image/webp" >
+        <source srcset="./assets/shibuya.jpg" type="image/jpg"  > 
+        <img src="./assets/shibuya.jpg" alt="Vista di shibuya di notte"/>
+    </picture>
+    
+    
+            <!--scegliere le immagini e creare la cartella assets -->
+    <picture>
+        <source srcset="./assets/akihabara.webp" type="image/webp" >
+        <source srcset="./assets/akihabara.jpg" type="image/jpg"  > 
+        <img src="./assets/akihabara.jpg" alt="Vista di akihabara frotnale"/>
+    </picture>
+    <hr>
+</body>
+
+</html>
